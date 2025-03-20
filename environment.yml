@@ -1,0 +1,10 @@
+name: pdfextract
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pdfminer.six
+  - conda-forge::nb_conda_kernels
+  - dateparser
+prefix: /opt/anaconda3/envs/pdfextract
